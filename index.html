@@ -6,68 +6,94 @@
     <title>About | Brad Ham</title>
     <!-- include favicon -->
     <link rel="shortcut icon" href="#">
-    <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style1.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="row">
-        <!-- div for spacing? -->
+<body background="assets/images/textured_paper2.png">
 
-        <a class="navbar-brand bg-info col-md" href="index.html">Brad Ham</a>
+    <nav class="navbar navbar-expand-lg navbar-light border border-top-0 border-left-0 border-right-0 bg-light border-dark">
+        <!-- Added div for spacing -->
+        <div class="col-lg-2"></div>
+
+        <a class="navbar-brand text-white bg-info" href="index.html">Brad Ham</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
+
+
+                <!-- Added divs for spacing -->
+                <div class="col-lg-12"></div>
+                <div class="col-lg-12"></div>
+
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">About</a>
                 </li>
 
+                <li class="nav-item">
+                    <a class="nav-link border border-top-0 border-bottom-0 border-dark"
+                        href="portfolio.html">Portfolio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+
             </ul>
+
         </div>
-    </div>
     </nav>
 
-    <!-- <header id="masthead">
+    <header id="masthead">
         <div class="container">
-            <a href="index.html" id="logo">Brad Ham</a>
+            <!-- <a href="index.html" id="logo">Brad Ham</a> -->
             <nav>
-                Original Links
-                <a href="index.html">About</a>
+                <!-- Original Links -->
+                <!-- <a href="index.html">About</a>
                 <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
+                <a href="contact.html">Contact</a> -->
             </nav>
         </div>
-    </header> -->
+    </header>
 
-    <div id="main-container" class="container">
+
+    <div id="main-container" class="container bg-light">
         <section class="main-section">
-            <h1>About Me</h1>
+            <h1 class="text-info">About Me</h1>
 
-            <img src="assets/images/brad_work_rectangle.jpg" class="auth-image" alt="Your Name">
+            <!-- 2 COLUMN IMAGE -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-2">
+                        <img class="img-fluid float-left" src="assets/images/brad_work_rectangle.jpg">
+                    </div>
+                    <div class="col-8">
+                        <p>I am a web developer from Nashville, TN. I have been in the IT
+                                field for over 15 years. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin
+                            vel dui
+                            massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin
+                            commodo purus
+                            vitae sollicitudin consectetur.</p>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc
-                porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui
-                massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus
-                vitae sollicitudin consectetur.</p>
+                        <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium
+                            odio. Nunc id
+                            eros iaculis, pulvinar quam eget, egestas mauris.</p>
 
-            <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id
-                eros iaculis, pulvinar quam eget, egestas mauris.</p>
+                        <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas
+                            nibh tortor
+                            et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                            mus.</p>
 
-            <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor
-                et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+
+                    </div>
+                </div>
+            </div>
 
         </section>
 
