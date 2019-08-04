@@ -4,12 +4,52 @@
 <head>
   <meta charset="UTF-8">
   <title>Contact | Your Name</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
 
-<body>
+<body background="assets/images/textured_paper2.png">
 
-  <header id="masthead">
+        <nav class="navbar navbar-expand-lg navbar-light border border-top-0 border-left-0 border-right-0 bg-light border-dark">
+                <!-- Added div for spacing -->
+                <div class="col-lg-2"></div>
+        
+                <a class="navbar-brand text-white bg-info" href="index.html">Brad Ham</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+        
+        
+                        <!-- Added divs for spacing -->
+                        <div class="col-lg-12"></div>
+                        <div class="col-lg-12"></div>
+        
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+        
+                        <li class="nav-item">
+                            <a class="nav-link border border-top-0 border-bottom-0 border-dark"
+                                href="portfolio.html">Portfolio</a>
+                        </li>
+        
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+        
+                    </ul>
+        
+                </div>
+            </nav>
+        
+
+  <!-- <header id="masthead">
     <div class="container">
       <a href="index.html" id="logo">Your Name</a>
       <nav>
@@ -18,17 +58,17 @@
         <a href="contact.html">Contact</a>
       </nav>
     </div>
-  </header>
+  </header> -->
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Contact</h1>
+  <div id="main-container" class="container bg-light">
+    <section class="main-section col-lg-12">
+      <h1 class="text-info">Contact</h1>
 
       <form id="contact-form">
         <ul>
           <li>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+            <label class="" for="name">Name</label>
+            <input class="" type="text" id="name" name="name" placeholder="John Smith" required="required">
           </li>
           <li>
             <label for="email">Email</label>
@@ -46,11 +86,29 @@
 
   </div>
 
+  <!-- Old Footer
   <footer>
     <div class="container">
       Copyright &copy; 
     </div>
+  </footer> -->
+
+      <!-- Footer -->
+      <footer
+      class="page-footer font-small bg-dark fixed-bottom border border-left-0 border-bottom-0 border-right-0 border-info">
+
+      <div class="panel panel-default bg-info fixed-bottom">
+          <div class="panel-body text-info"></div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3 text-white">Copyright ©
+          <!-- <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a> -->
+      </div>
+      <!-- Copyright -->
+
   </footer>
+
 </body>
 
 </html>
